@@ -74,7 +74,7 @@ while (opcion != 4){
 
 
     if (comprasConfirmadas >=2){
-        alert("Podes comprar hasta dos producto en un mismo Carrito!\n" + "Gracias por tu Compra, El valor Total de la misma es: $" + valorCarrito);    // si las compras son dos finaliza el bucle
+        alert("Listo! Se Agrego tu segundo producto.\n" + "Recorda que Podes comprar hasta dos producto en un mismo Carrito!\n\n" + "Gracias por tu Compra, El valor Total de la misma es: $" + valorCarrito);    // si las compras son dos finaliza el bucle
         break;
 
     } else if(comprasConfirmadas > 0 && comprasConfirmadas < 2){                                        // si hay compras confirmadas
